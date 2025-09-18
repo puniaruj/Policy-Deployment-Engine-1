@@ -11,7 +11,7 @@ resource "google_dataplex_asset" "bad" {
   }
 
   discovery_spec {
-    enabled = false   # 🚨 discovery disabled
+    enabled = false  
   }
 
   labels = {

@@ -1,6 +1,6 @@
 resource "google_dataplex_asset" "bad" {
   name          = "asset-bad"
-  project       = "dummy-project"   # ✅ required
+  project       = "dummy-project"  
   lake          = "test-lake"
   dataplex_zone = "zone-ok"
   location      = "us-central1"
@@ -14,5 +14,4 @@ resource "google_dataplex_asset" "bad" {
     enabled = true
   }
 
-  # 🚨 no labels
 }

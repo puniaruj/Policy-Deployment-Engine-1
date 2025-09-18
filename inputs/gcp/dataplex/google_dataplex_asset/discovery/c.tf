@@ -11,7 +11,7 @@ resource "google_dataplex_asset" "ok" {
   }
 
   discovery_spec {
-    enabled = true   # ✅ required
+    enabled = true  
   }
 
   labels = {

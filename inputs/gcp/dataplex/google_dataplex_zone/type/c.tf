@@ -3,7 +3,7 @@ resource "google_dataplex_zone" "ok" {
   name     = "zone-type-ok"
   lake     = "test-lake"
   location = "us-central1"
-  type     = "RAW" # ✅ valid
+  type     = "RAW" 
 
   discovery_spec {
     enabled = true

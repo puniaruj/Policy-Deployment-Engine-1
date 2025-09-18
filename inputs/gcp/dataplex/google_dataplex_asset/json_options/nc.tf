@@ -12,7 +12,7 @@ resource "google_dataplex_asset" "bad" {
 
   discovery_spec {
     enabled = true
-    # 🚨 missing json_options
+    
   }
 
   labels = {

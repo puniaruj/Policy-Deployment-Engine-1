@@ -7,7 +7,7 @@ resource "google_dataplex_asset" "ok" {
 
   resource_spec {
     name = "projects/dummy-project/buckets/compliant-bucket"
-    type = "STORAGE_BUCKET"   # ✅ allowed
+    type = "STORAGE_BUCKET"  
   }
 
   discovery_spec {

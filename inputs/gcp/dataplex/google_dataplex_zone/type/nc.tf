@@ -3,7 +3,7 @@ resource "google_dataplex_zone" "bad" {
   name     = "zone-type-bad"
   lake     = "test-lake"
   location = "us-central1"
-  type     = "INVALID" # 🚨 not allowed
+  type     = "INVALID" 
 
   discovery_spec {
     enabled = true

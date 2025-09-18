@@ -10,7 +10,7 @@ resource "google_dataplex_zone" "ok" {
   }
 
   resource_spec {
-    location_type = "SINGLE_REGION" # ✅
+    location_type = "SINGLE_REGION" 
   }
 
   labels = { owner = "pde" }

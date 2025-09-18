@@ -10,7 +10,7 @@ resource "google_dataplex_zone" "bad" {
   }
 
   resource_spec {
-    location_type = "MULTI_REGION" # 🚨
+    location_type = "MULTI_REGION" 
   }
 
   labels = { owner = "pde" }

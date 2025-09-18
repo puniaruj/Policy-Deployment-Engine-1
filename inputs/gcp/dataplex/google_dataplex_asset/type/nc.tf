@@ -7,7 +7,7 @@ resource "google_dataplex_asset" "bad" {
 
   resource_spec {
     name = "projects/dummy-project/bigquery/noncompliant-table"
-    type = "BIGQUERY"   # 🚨 not allowed
+    type = "BIGQUERY"   
   }
 
   discovery_spec {

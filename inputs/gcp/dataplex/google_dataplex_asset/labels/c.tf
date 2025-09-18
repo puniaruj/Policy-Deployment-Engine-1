@@ -1,6 +1,6 @@
 resource "google_dataplex_asset" "ok" {
   name          = "asset-ok"
-  project       = "dummy-project"   # ✅ required
+  project       = "dummy-project"   
   lake          = "test-lake"
   dataplex_zone = "zone-ok"
   location      = "us-central1"
